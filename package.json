@@ -1,7 +1,7 @@
 {
-    "name": "istanbul",
-    "version": "0.3.6",
-    "description": "Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests and browser tests. Built for scale",
+    "name": "istanbul-json",
+    "version": "0.3.7",
+    "description": "Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests and browser tests. Built for scale. Added summary to json report for consistency.",
     "keywords": [ "coverage", "code coverage", "JS code coverage", "JS coverage" ],
     "author": "Krishnan Anantheswaran <kananthmail-github@yahoo.com>",
     "license" : "BSD-3-Clause",
@@ -47,7 +47,8 @@
         "Mathieu Naouache @math-nao <math.nao@outlook.com>",
         "Ron Korving @ronkorving",
         "Rob McGuire-Dale @robatron <rob.mcguiredale@gmail.com>",
-        "Justin Johnson @booleangate"
+        "Justin Johnson @booleangate",
+        "Nicole Grieble <ngrieble@gmail.com>"
     ],
     "scripts": {
         "pretest": "jshint index.js lib/ test/",
@@ -60,7 +61,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/gotwarlost/istanbul.git"
+        "url": "git://github.com/ngrieble/istanbul.git"
     },
     "dependencies": {
         "esprima": "2.0.x",
